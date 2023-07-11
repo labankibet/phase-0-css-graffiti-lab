@@ -1,1 +1,18 @@
 /* write your override styles here */
+body {
+    display: block;
+    -webkit-user-select: none;
+    margin: auto;
+    cursor: zoom-in;
+    background-color: hsl(0, 0%, 90%);
+    transition: background-color 300ms;
+}
+div {
+    width: 696px;
+    aspect-ratio: auto 696 / 348;
+    height: 348px;
+}
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
